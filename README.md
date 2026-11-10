@@ -4,8 +4,7 @@ Exam project for hel-8048, looking at my audiobook listening statistics
 ## Contributions
 Contributions are allways welcome
 
-![Tegning av en rosa bokorm]
-(/main/Bilder/Bokorm.png)
+![Tegning av en rosa bokorm](Bilder/Bokorm.png)
 
 ## Practical
 Exam submission on 14.12.26
