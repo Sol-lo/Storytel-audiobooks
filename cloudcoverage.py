@@ -7,7 +7,7 @@ def cloudy(date):
     client_ID = "5b083d5a-6244-436c-af71-caca0e531c1e"
     url = "https://frost.met.no/observations/v0.jsonld"
     params = {
-         "sources" : "SN90450",
+        "sources" : "SN90450",
         "elements" : "cloud_area_fraction",
         "referencetime" : date,
     }
@@ -17,5 +17,4 @@ def cloudy(date):
     clouds = data['data'][0]['observations'][0]['value']
     return clouds
 
-cloudy(2026-11-18)
-print("hello")
+print(cloudy("2026-11-18"))
